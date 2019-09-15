@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Splash">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".BheemActivity"></activity>
+        <activity android:name=".StActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -42,6 +42,7 @@
             android:inputType="textEmailAddress"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
+            android:textCursorDrawable="@drawable/color_cursor"
             android:textSize="18sp"
             android:textStyle="normal"
             app:boxStrokeColor="#FFFFFF" />
@@ -62,14 +63,13 @@
             android:inputType="textPassword"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textCursorDrawable="@android:color/background_light"
+            android:textCursorDrawable="@drawable/color_cursor"
             android:textSize="18sp"
             android:textStyle="normal" />
     </android.support.design.widget.TextInputLayout>
 
-
-
     <Button
+        android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
